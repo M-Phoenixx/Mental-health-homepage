@@ -17,49 +17,7 @@
     margin-left: 1rem;
 }
 
-.background{
-    background-image: url("Background_pic.png");
-    background-color: #0AAAA0;
-    height: 60vh;
-    background-size: 100%;
-    opacity: 80%;
-    background-repeat: no-repeat;
-    
-}
-.backDiv{
-    padding-top: 10rem;
-    margin: 0 auto;
-    width: fit-content;
-    text-align: center;
-    color: white;
-    
-}
-.navDiv{
-    margin: 0 auto;
-}
-.backH1{
-    font-size: 3rem;
-    margin: 0 auto;
-}
-.centDiv{
-    margin: 0 auto;
-    padding-left: 10rem;
-}
-.content{
-    padding-top: 5rem;
-    width: 60%;
-    margin-right: 5rem;
-}
-.cards{
-    width: 45rem;
-    /* margin-bottom: 4rem; */
-    margin: 0 auto;
 
-}
-.subVid{
-    margin: 1rem auto;
-    padding-left: 1rem;
-}
 .details{
     margin: 0rem auto;
     color: white;
@@ -73,23 +31,89 @@
     color: white;
     margin: 0rem auto;
     color: white;
-    /* background-color: red; */
-    text-align: left;
+    text-align: left; 
     width: 80%;
     padding-bottom: 2rem;
 }
 .add{
     margin-bottom: 10rem auto;
 }
-.mainDiv{
-    display: flex;
+
+.image-background{
+    width: 100%;
+    height: 90vh;
 }
-.videos{
-    margin: 0 auto;
-    font-weight: bold;
+
+.Servies-details{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.cards{
+    width: 25rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: .8rem;
+    
 }
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details-icon{
+    font-size: 3rem;
+   color:#0AAAA0;
+   padding: 1rem;
+   background-color: rgb(241, 235, 235);
+   border-radius: 3rem;
+}
+.details-icon:hover{
+    background-color:#0AAAA0;
+    color: snow;
+    transition: .5s;
+    transition-duration: .7s;
+}
+
+.helpus-sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    opacity: .8;
+    padding: 1rem;
+   margin-bottom: 2rem;
+}
+.helpus-title{
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.helpus-btn-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.event-details{
+    margin: .4rem;
+}
+
+.readmore{
+    font-size: .9rem;
+    border-radius: .8rem;
+    background: snow;
+}
+.readmore:hover{
+    background-color: #0AAAA0;
+}
+
 .footer{
     display: flex;
 }
@@ -118,49 +142,8 @@
     margin-left: 1rem;
 }
 
-.background{
-    background-image: url("Background_pic.png");
-    background-color: #0AAAA0;
-    height: 60vh;
-    background-size: 100%;
-    opacity: 80%;
-    background-repeat: no-repeat;
-    
-}
-.backDiv{
-    padding-top: 10rem;
-    margin: 0 auto;
-    width: fit-content;
-    text-align: center;
-    color: white;
-    
-}
 .navDiv{
     margin: 0 auto;
-}
-.backH1{
-    font-size: 3rem;
-    margin: 0 auto;
-}
-.centDiv{
-    margin: 0 auto;
-    padding-left: 10rem;
-}
-.content{
-    padding-top: 5rem;
-    width: 40%;
-    margin-right: 5rem;
-}
-.cards{
-    width: 45rem;
-    /* margin-bottom: 4rem; */
-    margin: 2rem 2rem 2rem 2rem;
-    /* margin: 0 auto; */
-
-}
-.subVid{
-    margin: 0rem auto;
-    padding-left: 2rem;
 }
 .details{
     margin: 0rem auto;
@@ -179,18 +162,6 @@
     text-align: left;
     width: 80%;
     padding-bottom: 4rem;
-}
-.add{
-    margin-bottom: 10rem auto;
-}
-.mainDiv{
-    display: flex;
-}
-.videos{
-    /* margin: 0 auto; */
-    font-weight: bold;
-    /* display: flex; */
-    /* float: inline-start; */
 }
 .footer{
     display: flex;
@@ -224,51 +195,7 @@
         margin-left: 0.2rem;
     }
     
-    .background{
-        background-image: url("Background_pic.png");
-        background-color: #0AAAA0;
-        height: 25vh;
-        background-size: 100%;
-        opacity: 80%;
-        background-repeat: no-repeat;
-        
-    }
-    .backDiv{
-        padding-top: 4rem;
-        margin: 0 auto;
-        width: fit-content;
-        text-align: center;
-        color: white;
-        
-    }
-    .navDiv{
-        margin: 0 auto;
-    }
-    .backH1{
-        font-size: 1.5rem;
-        margin: 0 auto;
-    }
-    .centDiv{
-        margin: 0 auto;
-        padding-left: 10rem;
-    }
-    .content{
-        padding-top: 1.5rem;
-        /* margin: 0 auto; */
-        
-    }
-    .cards{
-        width: 18rem;
-        margin-bottom: 4rem;
-    }
-    .Vhead{
-        margin: 0 auto;
-    }
-    .subVid{
-        margin: 0rem auto;
-        padding-left: 0;
-        font-weight: bold;
-    }
+    
     .details{
         margin: 0rem auto;
         color: white;
@@ -286,17 +213,12 @@
        padding-bottom: 4rem;
        /* text-align: left; */
     }
-    .add{
-        margin-bottom: 10rem auto;
+    
+    .cards{
+        background: red;
+        overflow: hidden;
     }
-    .subVid h4{
-        font-size: 15px;
-        width: 100%;
-    }
-    .mainDiv{
-        display: flex;
-        flex-direction: column;
-    }
+
     .footer{
         display: flex;
         flex-direction: column;
@@ -328,52 +250,6 @@
         color: white;
         margin-left: 0.2rem;
     }
-    
-    .background{
-        background-image: url("Background_pic.png");
-        background-color: #0AAAA0;
-        height: 25vh;
-        background-size: 100%;
-        opacity: 80%;
-        background-repeat: no-repeat;
-        
-    }
-    .backDiv{
-        padding-top: 4rem;
-        margin: 0 auto;
-        width: fit-content;
-        text-align: center;
-        color: white;
-        
-    }
-    .navDiv{
-        margin: 0 auto;
-    }
-    .backH1{
-        font-size: 1.5rem;
-        margin: 0 auto;
-    }
-    .centDiv{
-        margin: 0 auto;
-        padding-left: 10rem;
-    }
-    .content{
-        padding-top: 1.5rem;
-        /* margin: 0 auto; */
-        
-    }
-    .cards{
-        width: 22rem;
-        margin-bottom: 4rem;
-    }
-    .Vhead{
-        margin: 0 auto;
-    }
-    .subVid{
-        margin: 0rem auto;
-        padding-left: 0;
-        font-weight: bold;
-    }
     .details{
         margin: 0rem auto;
         color: white;
@@ -383,24 +259,7 @@
         padding-left: 1rem;
         padding-right: 2rem;
         
-    }
-    .contact{
-        /* margin: 0rem auto; */
-        color: white;
-       margin: 0 auto;
-       padding-bottom: 4rem;
-    }
-    .add{
-        margin-bottom: 10rem auto;
-    }
-    .subVid h4{
-        font-size: 15px;
-        width: 100%;
-    }
-    .mainDiv{
-        display: flex;
-        flex-direction: column;
-    }
+    } 
     .footer{
         display: flex;
         flex-direction: column;
@@ -433,52 +292,6 @@
         margin-left: 0.2rem;
     }
     
-    .background{
-        background-image: url("Background_pic.png");
-        background-color: #0AAAA0;
-        height: 25vh;
-        background-size: 100%;
-        opacity: 80%;
-        background-repeat: no-repeat;
-        
-    }
-    .backDiv{
-        padding-top: 4rem;
-        margin: 0 auto;
-        width: fit-content;
-        text-align: center;
-        color: white;
-        
-    }
-    .navDiv{
-        margin: 0 auto;
-    }
-    .backH1{
-        font-size: 1.5rem;
-        margin: 0 auto;
-    }
-    .centDiv{
-        margin: 0 auto;
-        padding-left: 10rem;
-    }
-    .content{
-        padding-top: 1.5rem;
-        /* margin: 0 auto; */
-        
-    }
-    .cards{
-        width: 25rem;
-        margin-bottom: 4rem;
-    }
-    .Vhead{
-        margin: 0 auto;
-    }
-    
-    .subVid{
-        margin: 0rem auto;
-        padding-left: 0;
-        font-weight: bold;
-    }
     .details{
         margin: 0rem auto;
         color: white;
@@ -489,138 +302,11 @@
         padding-right: 1rem;
         
     }
-    .contact{
-        /* margin: 0rem auto; */
-        color: white;
-       margin: 0 auto;
-       padding-bottom: 4rem;
-    }
-    .add{
-        margin-bottom: 10rem auto;
-    }
-    .subVid h4{
-        font-size: 15px;
-        width: 100%;
-    }
-    .mainDiv{
-        display: flex;
-        flex-direction: column;
-    }
     .footer{
         display: flex;
         flex-direction: column;
     }
 }
-
-/* --------------------media query for min 401 and max 760---------------- */
-
-@media only screen and (min-width: 760px) and (max-width: 1000px) {
-    .body{
-        margin: 0px;
-    }
-    .header{
-        background-color: #0AAAA0;
-        /* background-color: red; */
-        height: 2.5rem;
-    }
-    .social{
-        float: none;
-        padding-top: 0.5rem;
-        color: white;
-        margin: 0 auto;
-        padding-left: 0rem;
-        font-size: 12px;
-    }
-    .icn{
-        color: white;
-        margin-left: 0.2rem;
-    }
-    
-    .background{
-        background-image: url("Background_pic.png");
-        background-color: #0AAAA0;
-        height: 25vh;
-        background-size: 100%;
-        opacity: 80%;
-        background-repeat: no-repeat;
-        
-    }
-    .backDiv{
-        padding-top: 4rem;
-        margin: 0 auto;
-        width: fit-content;
-        text-align: center;
-        color: white;
-        
-    }
-    .navDiv{
-        margin: 0 auto;
-    }
-    .backH1{
-        font-size: 1.5rem;
-        margin: 0 auto;
-    }
-    .centDiv{
-        margin: 0 auto;
-        padding-left: 10rem;
-    }
-    .content{
-        padding-top: 1.5rem;
-        /* margin: 0 auto; */
-        
-    }
-    .cards{
-        width: 46rem;
-        margin-bottom: 4rem;
-    }
-    .Vhead{
-        margin: 0 auto;
-    }
-    .videos{
-        margin: 0 auto;
-        font-weight: bold;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .subVid{
-        margin: 0rem auto;
-        padding-left: 0;
-        font-weight: bold;
-    }
-    .details{
-        margin: 0rem auto;
-        color: white;
-        /* background-color: blue; */
-        text-align: center;
-        width: 100%;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        /* padding-bottom: 4rem; */
-        
-    }
-    .contact{
-        /* margin: 0rem auto; */
-        color: white;
-       margin: 0 auto;
-       padding-bottom: 4rem;
-    }
-    .add{
-        margin-bottom: 10rem auto;
-    }
-    .subVid h4{
-        font-size: 15px;
-        width: 100%;
-    }
-    .mainDiv{
-        display: flex;
-        flex-direction: column;
-    }
-    .footer{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 
 /* --------------------media query for min 1001 and max 1400---------------- */
 
@@ -646,51 +332,6 @@
         margin-left: 0.2rem;
     }
     
-    .background{
-        background-image: url("Background_pic.png");
-        background-color: #0AAAA0;
-        height: 25vh;
-        background-size: 100%;
-        opacity: 80%;
-        background-repeat: no-repeat;
-        
-    }
-    .backDiv{
-        padding-top: 4rem;
-        margin: 0 auto;
-        width: fit-content;
-        text-align: center;
-        color: white;
-        
-    }
-    .navDiv{
-        margin: 0 auto;
-    }
-    .backH1{
-        font-size: 1.5rem;
-        margin: 0 auto;
-    }
-    .centDiv{
-        margin: 0 auto;
-        padding-left: 10rem;
-    }
-    .content{
-        padding-top: 1.5rem;
-        /* margin: 0 auto; */
-        
-    }
-    .cards{
-        width: 30rem;
-        margin-bottom: 4rem;
-    }
-    .Vhead{
-        margin: 0 auto;
-    }
-    .subVid{
-        margin: 0rem auto;
-        padding-left: 0;
-        font-weight: bold;
-    }
     .details{
         margin: 0rem auto;
         color: white;
@@ -700,23 +341,6 @@
         padding-left: 1rem;
         padding-right: 1rem;
         
-    }
-    .contact{
-        /* margin: 0rem auto; */
-        color: white;
-       margin: 0 auto;
-       padding-bottom: 4rem;
-    }
-    .add{
-        margin-bottom: 10rem auto;
-    }
-    .subVid h4{
-        font-size: 15px;
-        width: 100%;
-    }
-    .mainDiv{
-        display: flex;
-        /* flex-direction: column; */
     }
     .footer{
         display: flex;
