@@ -59,7 +59,6 @@
     flex-direction: column;
     align-items: center;
     margin: .8rem;
-    
 }
 .icon{
     display: flex;
@@ -87,6 +86,10 @@
     opacity: .8;
     padding: 1rem;
    margin-bottom: 2rem;
+    background-image: url("https://cdn1.vectorstock.com/i/thumb-large/33/20/mental-health-composition-vector-42133320.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y:bottom ;
 }
 .helpus-title{
     display: flex;
@@ -100,6 +103,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.helpus-btn{
+    margin: 4px;
+}
 
 .event-details{
     margin: .4rem;
@@ -112,6 +118,89 @@
 }
 .readmore:hover{
     background-color: #0AAAA0;
+}
+
+.gallerybox{
+    width: 100%;
+    height: fit-content;
+    background: #000;
+    color: snow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.gallerybox > h1 > span{
+    color: #0AAAA0;
+}
+.gallerybox > h1{
+    margin: 2rem;
+}
+
+.gallery-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-image-container > img{
+   width: 18rem;
+   border: 4px solid snow;
+   margin: .8rem;
+}
+.testimonial-box{
+ display: flex;
+ width: 100%;
+ height: fit-content;
+ flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.testimonial-cards{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.testimonial-card-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.testimonial-name > h1{
+    font-size: 2rem;
+}
+.testimonial-name > p{
+    color: gray;
+}
+
+
+.testimonial-card-detail > img{
+width: 24rem;
+ border: .8rem solid  #0AAAA0;
+}
+
+.joinus-bar{
+    background:#0AAAA0;
+    color: snow;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.joinus-bar > h1{
+    font-size: 1.5rem;
+}
+.join-us{
+    background: #0AAAA0;
+    color: snow;
+    border-color: snow;
+}
+.join-us:hover{
+    background: snow;
+    color: black;
 }
 
 .footer{
@@ -215,8 +304,11 @@
     }
     
     .cards{
-        background: red;
         overflow: hidden;
+    }
+    
+    .hlepus-btn{
+       padding: 1rem;
     }
 
     .footer{
